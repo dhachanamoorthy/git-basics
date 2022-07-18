@@ -45,3 +45,10 @@ git fetch origin
 git reset --hard origin/master
 ```
 
+- To reset the commit to desired head
+```
+git reset --hard <commit-id>
+
+git push origin <branch> -f
+```
+
